@@ -130,9 +130,9 @@ nav{
 
 /* Services Page */
 
-  .card{
-    margin-left: 5rem;
-  }
+ .row{
+    justify-content: center;
+ }
 
   .row h1{
     text-align: center;
@@ -162,3 +162,35 @@ nav{
 
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+
+
+ .card{
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-0.3em);
+
+}
+
+.card-block p{
+    transition: all 0.3s ease-in-out;
+
+}
+.card-text small{
+    cursor: pointer;
+    
+}
+
+
+.card-block h4 b{
+    color:#bc6c25ff;
+
+}
