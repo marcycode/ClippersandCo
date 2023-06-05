@@ -163,10 +163,12 @@ nav{
 }
 
 .row img{
-    
+    margin-left: 5rem;
     border: #fff;
     border-radius: 0.3rem;
     border-color:#dda15eff;;
     border-width: 2px;
     border-style: solid;
 }
+
+
