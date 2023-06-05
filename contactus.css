@@ -58,22 +58,22 @@ nav{
 }
 .hero-btn{
     width: 20%;
-    left: 3%;
-    margin-top: 1rem;
+    left:3%;
+    align-items: center;
+    margin-top: 0.4rem;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 34px;
+    padding: 10px 4px;
     font-size: 20px;
     background: #606c38ff;;
-    position: relative;
     cursor: pointer;
     border-radius: 1rem;
     transition: all 0.5s ease-in-out;
 }
 .hero-btn:hover{
     border: 1px sold #606c38ff;
-    background: #bc6c25ff;;
+    background:#dda15eff;
     
 
     transform: translateY(-0.3em);
@@ -179,3 +179,4 @@ nav{
   position: fixed;
   width: 100%;
 }
+

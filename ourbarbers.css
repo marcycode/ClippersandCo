@@ -43,15 +43,6 @@ nav{
 }
 
 
-#moreanimate{
-    transition: all 0.3s ease-in-out;
-}
-#moreanimate:hover{
-    transform: translateY(-0.3em);
-
-    background-color: #bc6c25ff;
-    border-radius: 4rem;
-}
 
 .navbar-nav > li a:hover{
     color:#bc6c25ff;
@@ -81,58 +72,19 @@ nav{
 
 }
 
-.thisimage{
-    float:right;
-    align-items: end;
-    margin-left:850px;
-    margin-top: -270px;
-    width: 30%;
-    transition: all 0.3s ease-in-out;
-    animation: hovering 5s infinite;
-    
-}
 
 
 
-@keyframes hovering{
-    0%{
-      transform:translateY(0rem);
-    
-    }
-    50%{
-      transform:translateY(-1rem);
-    }
-    100%{
-      transform:translateY(0rem);
-    }
   
-    
-    }
-
-
-
-  div ul li a:hover{
-    color:#bc6c25ff;
-    cursor: pointer;
-  }
-
-
-  div ul li a {
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    
-  }
+  
 
 
 
 
 
-/* Services Page */
 
-  .card{
-    margin-left: 5rem;
-  }
+
+ 
 
   .row h1{
     text-align: center;
@@ -162,20 +114,38 @@ nav{
 
 }
 
-.row img{
 
-    margin-left: 5rem;
-    border: #fff;
-    border-radius: 0.3rem;
-    border-color:#dda15eff;;
-    border-width: 2px;
-    border-style: solid;
+
+
+ .card{
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-0.3em);
+
+}
+
+.card-block p{
+    transition: all 0.3s ease-in-out;
+
+}
+.card-text small{
+    cursor: pointer;
+    
 }
 
 
+.card-block h4 b{
+    color:#bc6c25ff;
 
+}
 
-.footer{
-  position: fixed;
-  width: 100%;
+i{
+    align-items: center;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+i:hover{
+    transform: translateY(-0.3em);
+    cursor: pointer;
 }
