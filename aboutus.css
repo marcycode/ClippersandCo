@@ -163,6 +163,7 @@ nav{
 }
 
 .row img{
+
     margin-left: 5rem;
     border: #fff;
     border-radius: 0.3rem;
@@ -170,5 +171,7 @@ nav{
     border-width: 2px;
     border-style: solid;
 }
+
+
 
 
