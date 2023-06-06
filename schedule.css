@@ -10,12 +10,24 @@ nav{
     background-color: #606c38ff;
 }
 
-
+.hero_text{
+    margin-top: 11rem;
+    float: left;
+    width: 40%;
+    margin-left: 3rem;
+    color:#bc6c25ff;
+}
 .hero_text b{
     color:#283618ff;
 }
 
-
+.btn{
+    margin-left: 3rem;
+    width: 20%;
+    padding: 2px 2px;
+    background-color:#283618ff;
+    margin-top: 1rem;
+}
 
 
 
@@ -31,28 +43,37 @@ nav{
 }
 
 
+#moreanimate{
+    transition: all 0.3s ease-in-out;
+}
+#moreanimate:hover{
+    transform: translateY(-0.3em);
+
+    background-color: #bc6c25ff;
+    border-radius: 4rem;
+}
 
 .navbar-nav > li a:hover{
     color:#bc6c25ff;
 }
 .hero-btn{
     width: 20%;
-    left: 3%;
-    margin-top: 1rem;
+    left:3%;
+    align-items: center;
+    margin-top: 0.4rem;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 34px;
+    padding: 10px 4px;
     font-size: 20px;
     background: #606c38ff;;
-    position: relative;
     cursor: pointer;
     border-radius: 1rem;
     transition: all 0.5s ease-in-out;
 }
 .hero-btn:hover{
     border: 1px sold #606c38ff;
-    background: #bc6c25ff;;
+    background:#dda15eff;
     
 
     transform: translateY(-0.3em);
@@ -60,19 +81,58 @@ nav{
 
 }
 
+.thisimage{
+    float:right;
+    align-items: end;
+    margin-left:850px;
+    margin-top: -270px;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    animation: hovering 5s infinite;
+    
+}
 
 
 
+@keyframes hovering{
+    0%{
+      transform:translateY(0rem);
+    
+    }
+    50%{
+      transform:translateY(-1rem);
+    }
+    100%{
+      transform:translateY(0rem);
+    }
   
-  
+    
+    }
+
+
+
+  div ul li a:hover{
+    color:#bc6c25ff;
+    cursor: pointer;
+  }
+
+
+  div ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+  }
 
 
 
 
 
+/* Services Page */
 
-
- 
+  .card{
+    margin-left: 5rem;
+  }
 
   .row h1{
     text-align: center;
@@ -102,39 +162,22 @@ nav{
 
 }
 
+.row img{
 
-
-
- .card{
-    transition: all 0.3s ease-in-out;
+    margin-left: 5rem;
+    border: #fff;
+    border-radius: 0.3rem;
+    border-color:#dda15eff;;
+    border-width: 2px;
+    border-style: solid;
 }
 
 
 
-.card-block p{
-   
-    transition: all 0.3s ease-in-out;
 
-}
-.card-text small{
-    cursor: pointer;
-    
-}
-
-
-.card-block h4 b{
-    color:#bc6c25ff;
-
-}
-
-i{
-    align-items: center;
-    padding-left: 10px;
-    transition: all 0.3s ease-in-out;
-}
-i:hover{
-    transform: translateY(-0.3em);
-    cursor: pointer;
+.footer{
+  position: fixed;
+  width: 100%;
 }
 
 .col small a{
@@ -147,12 +190,6 @@ i:hover{
     color:#bc6c25ff;
   }
 
-  .row{
-    justify-content: center;
- }
-
-  .row h1{
-    text-align: center;
+  .dropdown-menu{
+    background-color: blue;
   }
-
-  
