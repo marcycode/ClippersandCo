@@ -189,3 +189,7 @@ nav{
 .col small a:hover{
   color:#bc6c25ff;
 }
+
+.textpart{
+  width: 40%;
+}

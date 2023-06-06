@@ -10,24 +10,12 @@ nav{
     background-color: #606c38ff;
 }
 
-.hero_text{
-    margin-top: 11rem;
-    float: left;
-    width: 40%;
-    margin-left: 3rem;
-    color:#bc6c25ff;
-}
+
 .hero_text b{
     color:#283618ff;
 }
 
-.btn{
-    margin-left: 3rem;
-    width: 20%;
-    padding: 2px 2px;
-    background-color:#283618ff;
-    margin-top: 1rem;
-}
+
 
 
 
@@ -159,3 +147,13 @@ i:hover{
   .col small a:hover{
     color:#bc6c25ff;
   }
+
+  .row{
+    justify-content: center;
+ }
+
+  .row h1{
+    text-align: center;
+  }
+
+  

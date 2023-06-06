@@ -186,11 +186,37 @@ nav{
 }
 .card-text small{
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding-left: 0.2em;
     
 }
+.card-text small:hover{
+    transform: translateY(-0.3em);
+    color: #dda15eff;;
 
+}
+.card-text{
+    padding-left: 0.2em;
+}
 
 .card-block h4 b{
     color:#bc6c25ff;
 
 }
+.card-block h4{
+    padding-left: 0.1em;
+}
+
+.col small a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  .col small a:hover{
+    color:#bc6c25ff;
+  }
+  
+  #testings{
+    color:blue;
+  }
