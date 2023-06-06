@@ -193,3 +193,22 @@ nav{
   .dropdown-menu{
     background-color: blue;
   }
+  ul li a i{
+    padding-right:0.4em ;
+    
+  }
+
+  ul li input{
+
+    
+    margin-left: 1em;
+  }
+
+  input[type="radio"] {
+    background:#bc6c25ff;
+    
+  }
+
+  input[type="radio"]{
+    accent-color: pink;
+}
