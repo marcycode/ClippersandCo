@@ -57,38 +57,41 @@ nav{
     color:#bc6c25ff;
 }
 .hero-btn{
-    width: 20%;
-    left: 3%;
-    margin-top: 1rem;
+    width:10%;
+
+   
+   
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 34px;
+    padding: 5px;
     font-size: 20px;
-    background: #606c38ff;;
-    position: relative;
+    background: #606c38ff;
+  
+   
     cursor: pointer;
     border-radius: 1rem;
     transition: all 0.5s ease-in-out;
+}
+.hero-btn a{
+  color:white;
 }
 .hero-btn:hover{
     border: 1px sold #606c38ff;
     background: #bc6c25ff;;
     
 
-    transform: translateY(-0.3em);
+   
     transition: all 0.5s ease-in-out;
 
 }
 
 .thisimage{
-    float:right;
-    align-items: end;
-    margin-left:850px;
-    margin-top: -270px;
-    width: 30%;
-    transition: all 0.3s ease-in-out;
-    animation: hovering 5s infinite;
+  width: 10px;
+ 
+  margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+  animation: hovering 5s infinite;
     
 }
 
@@ -135,6 +138,9 @@ nav{
  }
 
   .row h1{
+    text-align: center;
+  }
+  .row h4{
     text-align: center;
   }
 

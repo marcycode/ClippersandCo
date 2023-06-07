@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +42,7 @@
         </div>
       </nav>
       <div id="alertcontainer"></div>
-      <form class="contactusform" id="contactus">
+      <form class="scheduleform" id="scheduleform">
        
         <div class="col mt-2">
           <div class="form-group">
@@ -69,16 +71,18 @@
                           <div class="col pt-1">
                             <label for="selectbarber" style="margin-left: 2.5rem;">Select a Barber</label>
                             <div class="dropdown">
-                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:#dda15eff;; padding-right: 11em; margin-left: 40px ; border: none; margin-bottom: -0.5px;" >
+                              <button class="btn btn-secondary dropdown-toggle" type="button" id="barberbutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:#dda15eff;; padding-right: 9em; margin-left: 40px ; border: none; margin-bottom: -0.5px; " >
                                         Barber
                                     </button>
                               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Aiden Campbell<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Bobby Brown<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> John Doe<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Lucas Ramirez<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Mary Manny<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Noah Parker<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
+                                <li data-value="option1"><button class="dropdown-item" type="button">Aiden Camp</button></li>
+                                <li data-value="option2"><button class="dropdown-item" type="button">Bobby Brow</button></li>
+                                <li data-value="option3"><button class="dropdown-item" type="button">John Doe</button></li>
+                                <li data-value="option4"><button class="dropdown-item" type="button">Lucas Rami</button></li>
+                                <li data-value="option5"><button class="dropdown-item" type="button">Mary Man</button></li>
+                                <li data-value="option6"><button class="dropdown-item" type="button">Noah Park</button></li>
+                              
+                                
                               </ul>
                             </div>
                             
@@ -87,15 +91,15 @@
 
                         </div>
                         <div class="col pt-1">
-                          <label for="selectbarber" style="margin-right: 21rem;">Services</label>
+                          <label for="selectservice" style="margin-right: 21rem;">Services</label>
                           <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:#dda15eff;; padding-right: 11em; margin-left: -4px ; border: none; margin-bottom: -0.5px;" >
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="servicebutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:#dda15eff;; padding-right: 11em; margin-left: -4px ; border: none; margin-bottom: -0.5px;" >
                                       Select a Service
                                   </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">Men's Haircut<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                              <li><a class="dropdown-item" href="#">Beards & Shaving<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
-                              <li><a class="dropdown-item" href="#">Kid's Haircut<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></a></li>
+                              <li data-value="option7"><button class="dropdown-item" type="button">Men's Haircut</button></li>
+                              <li data-value="option8"><button class="dropdown-item" type="button">Beard & Shaving</button></li>
+                              <li data-value="option9"><button class="dropdown-item" type="button">Kid's Haircut</button></li>
                               
                             </ul>
                           </div>
@@ -119,26 +123,31 @@
                       <div class="row justify-content-left pb-4">
                         <div class="row">
                           <div class="col-5">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" id="name" class="form-control"placeholder="Enter Name">
+                            <label for="date" id="date">Date</label>
+                            <input type="date" id="name" class="form-control"placeholder="Enter Name">
                         </div>
                         <div class="col-5">
-                            <label for="email">Email Address</label>
-                            <input type="text" id ="email"class="form-control" placeholder="Enter Email">
+                            <label for="time">Time</label>
+                            <input type="time" id="time" class="form-control" pattern="(1[012]|0[1-9]):[0-5][0-9] (am|pm)">
+
+
                         </div>
 
                       </div>
                       <div class="row pt-4 ml-8" style="width: 75%; justify-content:left ; margin-left: 0.1rem;">
                         
-                        <label for="message" style="margin-right: 1rem;">Message</label>
+                        <label for="message" style="margin-left: -0.8rem; margin-bottom: 0.5em;">Comments</label>
                         <textarea class="form-control" id="message" rows="3" style="width:100%"placeholder="Enter message"></textarea>
-                        <button class="hero-btn" type="submit" style="justify-content: center; align-items: center;margin-top: 2rem; width: 50%;" onclick="verifyform()">Submit</button>
+                        
                     </div>
+                    
 
                         
                     </div>
+                    
 
                     </div>
+                    
                     
                 </div>
                 
@@ -148,11 +157,13 @@
         
 
         </div>
+        <button class="hero-btn" type="submit" style="justify-content: center; align-items: center;margin-top: 2rem; width: 20%; margin-left: 35rem;" onclick="verifyscheduleform()">Submit</button>
         
       
        
 
       </form>
+      
       
         
         
