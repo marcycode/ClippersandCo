@@ -110,6 +110,11 @@ function isScheduleFormComplete() {
   }
 
 
+  function responsivemargins(){
+    var navbar = document.querySelector('.navbar-nav')
+    navbar.style.marginLeft = '-10px';
+  }
+
  
 
   
