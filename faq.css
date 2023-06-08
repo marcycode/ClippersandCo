@@ -21,16 +21,10 @@ nav{
     color:#283618ff;
 }
 
-.btn{
-    margin-left: 3rem;
-    width: 20%;
-    padding: 2px 2px;
-    background-color:#283618ff;
-    margin-top: 1rem;
+.accordion-button{
+    color:white;
+    background-color: #bc6c25ff;;
 }
-
-
-
 .navbar-nav{
     margin-left: 47em;
    
@@ -57,41 +51,38 @@ nav{
     color:#bc6c25ff;
 }
 .hero-btn{
-    width:10%;
-
-   
-   
+    width: 20%;
+    left: 3%;
+    margin-top: 1rem;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 5px;
+    padding: 10px 34px;
     font-size: 20px;
-    background: #606c38ff;
-  
-   
+    background: #606c38ff;;
+    position: relative;
     cursor: pointer;
     border-radius: 1rem;
     transition: all 0.5s ease-in-out;
-}
-.hero-btn a{
-  color:white;
 }
 .hero-btn:hover{
     border: 1px sold #606c38ff;
     background: #bc6c25ff;;
     
 
-   
+    transform: translateY(-0.3em);
     transition: all 0.5s ease-in-out;
 
 }
 
 .thisimage{
-  width: 10px;
- 
-  margin-bottom: 2rem;
-  transition: all 0.3s ease-in-out;
-  animation: hovering 5s infinite;
+    float:right;
+    align-items: end;
+    margin-left:850px;
+    margin-top: -270px;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    animation: hovering 5s infinite;
     
 }
 
@@ -133,16 +124,15 @@ nav{
 
 /* Services Page */
 
- .row{
-    justify-content: center;
- }
+  .card{
+    margin-left: 5rem;
+  }
 
   .row h1{
     text-align: center;
+
   }
-  .row h4{
-    text-align: center;
-  }
+  
 
   .services-btn{
   
@@ -168,54 +158,19 @@ nav{
 
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
- }
- 
- .row > div[class*='col-'] {
-   display: flex;
- }
+.hero-btn a{
+  text-decoration: none;
+  color:white;
 
 
- .card{
-    transition: all 0.3s ease-in-out;
-}
-.card:hover{
-    transform: translateY(-0.3em);
-
-}
-
-.card-block p{
-    transition: all 0.3s ease-in-out;
-
-}
-.card-text small{
-    
-    padding-left: 0.2em;
-    
-}
-
-.card-text{
-    padding-left: 0.2em;
-}
-
-.card-block h4 b{
-    color:#bc6c25ff;
-
-}
-.card-block h4{
-    padding-left: 0.1em;
 }
 
 .col small a{
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s ease-in-out;
-  
-  }
-  
-  
-  #testings{
-    color:blue;
-  }
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+
+}
+.col small a:hover{
+  color:#bc6c25ff;
+}
