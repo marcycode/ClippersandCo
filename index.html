@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clippers and Co.</title>
 </head>
@@ -23,9 +24,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" >
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" id="moreanimate" href="services.html">Our Services</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                  Our Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="ourbarbers.html">Our Barbers</a></li>
+                  <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
+                  
+                </ul>
               </li>
+            
               <li class="nav-item">
                 <a class="nav-link text-white" href="aboutus.html" id="moreanimate">About Us</a>
               </li>
@@ -35,6 +44,7 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="contactus.html" id="moreanimate">Contact Us</a>
               </li>
+              
              
             </ul>
           </div>
@@ -59,50 +69,28 @@
        
         
       </div>
-      <script type = "text/javascript" src="index.js"></script>  
+      
       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
      
 </body>
 
-<footer class="py-3 mt-5" style="background-color: black">
-  <div class="container p-1 pb-2">
+<footer class="py-3 mt-5 " style="background-color: black; ">
+  <div class="container  pb-1 justify-content-left">
+    <div class="row" style="margin-top: 1em;">
+      <small class="text-white"> <i class="fa-solid fa-map-pin" style="margin-right : 0.5em;"></i>35 Runway Rd,CA</small>
+      <small class="text-white"> <i class="fa fa-phone" aria-hidden="true" style="margin-right: 0.5em;"></i>788-321-444</small>
+      <small class="text-white"><i class="fa-brands fa-facebook" style="margin-left: 0.2em; margin-top: 0.5em;"></i><i class="fa-brands fa-instagram" style="margin-left: 0.5em; margin-top: 0.5em;"></i><i class="fa-brands fa-twitter" style="margin-left: 0.5em; margin-top: 0.5em;"></i></small>
+    </div>
   
   </div>
-  <div class="container text-light text-center">
-    <div class="row">
-      <div class="row">
-        
-      </div>
-      <div class="col">
-        <small class="text-white">
-          <a href="ourbarbers.html">
-            Our Barbers
-          </a>
-        </small>
-      </div>
-      <div class="col">
-        <small class="text-white">
-          <ul style="list-style-type: none;">
-            <li>
-              <a href="terms.html">
-                Terms & Services
-              </a>
-            </li>
-            <li>
-              <a href="faq.html">
-                FAQ
-              </a>
-            </li>
-          </ul>
-         
-        </small>
-        
-      </div>
-      
+  <div class="container text-light text-center" style="margin-right:2em ;margin-bottom: 0.7em;">
+    
+    <div class="row" id="footerrow" style="margin-top: -5em;">
+      <small class="text-white"><a href="terms.html">Terms & Services</a></small>
+      <small class="text-white"><a href="faq.html">FAQ's</a></small>
     </div>
-    <small class="text-white"> 35 Runday Rd,CA</p>
-    <small class="text-white"> 788-321-444</p>
+    
     <small class="text-white" style="color:white">&copy;<b style="color:#bc6c25ff;">2023</b> Copyright by Clippers&Co. All rights reserved</small>
 
   </div>

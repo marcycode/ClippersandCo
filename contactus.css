@@ -32,7 +32,7 @@ nav{
 
 
 .navbar-nav{
-    margin-left: 47em;
+    margin-left: 45em;
    
     
   }
@@ -195,3 +195,44 @@ nav{
     margin-right: 0.4em;
     font-size: 20px;
   }
+
+  
+#footerrow small a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#footerrow small a:hover{
+  color: #bc6c25ff;
+  text-decoration: none;
+}
+.row small i{
+  transition: all 0.3s ease-in-out;
+
+}
+
+.row small i:hover{
+  cursor: pointer;
+  color:#bc6c25ff
+}
+
+.navbardropdown:hover{
+  
+  background-color:#bc6c25ff;
+  color: white;
+}
+.nav-link:hover{
+  background-color: #bc6c25ff;
+  color:white;
+
+}
+
+.navbar-nav > li a{
+  border-radius: 50px;
+}
+
+.navbar-nav > li a:hover{
+    background-color: #bc6c25ff;
+    color: white;
+    border-radius: 50px;
+}

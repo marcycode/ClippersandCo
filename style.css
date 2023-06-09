@@ -29,10 +29,19 @@ nav{
     margin-top: 1rem;
 }
 
+.navbardropdown:hover{
+  
+  background-color:#bc6c25ff;
+  color: white;
+}
+.nav-link:hover{
+  background-color: #bc6c25ff;
+  color:white;
 
+}
 
 .navbar-nav{
-    margin-left: 47em;
+    margin-left: 45em;
    
     
   }
@@ -52,10 +61,16 @@ nav{
     background-color: #bc6c25ff;
     border-radius: 4rem;
 }
+.navbar-nav > li a{
+  border-radius: 50px;
+}
 
 .navbar-nav > li a:hover{
-    color:#bc6c25ff;
+    background-color: #bc6c25ff;
+    color: white;
+    border-radius: 50px;
 }
+
 .hero-btn{
     width: 20%;
     left: 3%;
@@ -179,4 +194,44 @@ nav{
 }
 .col small a:hover{
   color:#bc6c25ff;
+}
+
+#footerrow small a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#footerrow small a:hover{
+  color: #bc6c25ff;
+  text-decoration: none;
+}
+.row small i{
+  transition: all 0.3s ease-in-out;
+
+}
+
+.row small i:hover{
+  cursor: pointer;
+  color:#bc6c25ff
+}
+
+.navbardropdown:hover{
+  
+  background-color:#bc6c25ff;
+  color: white;
+}
+.nav-link:hover{
+  background-color: #bc6c25ff;
+  color:white;
+
+}
+
+.navbar-nav > li a{
+  border-radius: 50px;
+}
+
+.navbar-nav > li a:hover{
+    background-color: #bc6c25ff;
+    color: white;
+    border-radius: 50px;
 }
