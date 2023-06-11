@@ -20,12 +20,6 @@ nav{
 
 
 
-.navbar-nav{
-    margin-left: 45em;
-   
-    
-  }
-
 .navbar-nav > li{
     margin-left: 1em;
     transition: all 0.3s ease-in-out;
@@ -200,8 +194,16 @@ i:hover{
 }
 
 
-.footer{
-  position:absolute;
-  bottom: 0;
-  width: 100%;
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
 }

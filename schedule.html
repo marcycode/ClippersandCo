@@ -18,199 +18,207 @@
     <title>Clippers and Co.</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="index.html">Clippers & Co.</a>
-      <button class="navbar-toggler" type="button" onclick="responsivemargins()" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" >
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
-              Our Services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="ourbarbers.html">Our Barbers</a></li>
-              <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="navbar navbar-expand-lg bg-body-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">Clippers & Co.</a>
+          <button class="navbar-toggler" type="button" onclick="responsivemargins()" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav" >
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                  Our Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="ourbarbers.html">Our Barbers</a></li>
+                  <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
+                  
+                </ul>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link text-white" href="aboutus.html" id="moreanimate">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="schedule.html" id="moreanimate">Schedule Appointment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contactus.html" id="moreanimate">Contact Us</a>
+              </li>
               
+             
             </ul>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link text-white" href="aboutus.html" id="moreanimate">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="schedule.html" id="moreanimate">Schedule Appointment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="contactus.html" id="moreanimate">Contact Us</a>
-          </li>
-          
-         
-        </ul>
-      </div>
-    </div>
-  </nav>
-      <div id="alertcontainer"></div>
-      <form class="scheduleform" id="scheduleform">
-       
-        <div class="col mt-2">
-          <div class="form-group">
-            <div class="col">
-                <div class="row">
-                    <div class="row mt-5 mb-5">
-                        <h1> Schedule Appointment</h1>
-                    </div>
-                    <div class="col">
-                      <div class="row justify-content-center pb-4" style="margin-left: 1em;">
-                        <div class="row">
-                          <div class="col-5">
-                            <label for="fullname"  class="pb-2">Full Name</label>
-                            <input type="text" id="name" class="form-control"placeholder="Enter Name">
+          </div>
+        </div>
+      </nav>
+          <div id="alertcontainer"></div>
+          <form class="scheduleform" id="scheduleform">
+           
+            <div class="col mt-2">
+              <div class="form-group">
+                <div class="col">
+                    <div class="row">
+                        <div class="row mt-5 mb-5">
+                            <h1> Schedule Appointment</h1>
                         </div>
-                        <div class="col-5">
-                            <label for="email" class="pb-2">Email Address</label>
-                            <input type="text" id ="email"class="form-control" placeholder="Enter Email">
-                        </div>
-                        </div>
-                        
-                        
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col pt-1">
-                            <label for="selectbarber" style="margin-left: 2.5rem;">Select a Barber</label>
-                            <div class="dropdown">
-                              <button class="btn btn-secondary dropdown-toggle" type="button" id="barberbutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:white; color: grey;  padding-right: 9em; margin-left: 40px ; border: solid 0.5px lightgray; accent-color: blue;  margin-bottom: -0.5px; " >
-                                        Barber
-                                    </button>
-                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li data-value="option1"><button class="dropdown-item" type="button">Aiden Camp</button></li>
-                                <li data-value="option2"><button class="dropdown-item" type="button">Bobby Brow</button></li>
-                                <li data-value="option3"><button class="dropdown-item" type="button">John Doe</button></li>
-                                <li data-value="option4"><button class="dropdown-item" type="button">Lucas Rami</button></li>
-                                <li data-value="option5"><button class="dropdown-item" type="button">Mary Man</button></li>
-                                <li data-value="option6"><button class="dropdown-item" type="button">Noah Park</button></li>
-                              
-                                
-                              </ul>
+                        <div class="col">
+                          <div class="row justify-content-center pb-4" style="margin-left: 1em;">
+                            <div class="row">
+                              <div class="col-5">
+                                <label for="fullname"  class="pb-2">Full Name</label>
+                                <input type="text" id="name" class="form-control"placeholder="Enter Name">
+                            </div>
+                            <div class="col-5">
+                                <label for="email" class="pb-2">Email Address</label>
+                                <input type="text" id ="email"class="form-control" placeholder="Enter Email">
+                            </div>
                             </div>
                             
                             
-                            
-
-                        </div>
-                        <div class="col pt-1">
-                          <label for="selectservice" style="margin-right: 21rem;">Services</label>
-                          <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="servicebutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:white; color: gray; padding-right: 11em; margin-left: -4px ; border: 0.5px solid lightgray; margin-bottom: -0.5px;" >
-                                      Select a Service
-                                  </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li data-value="option7"><button class="dropdown-item" type="button">Men's Haircut</button></li>
-                              <li data-value="option8"><button class="dropdown-item" type="button">Beard & Shaving</button></li>
-                              <li data-value="option9"><button class="dropdown-item" type="button">Kid's Haircut</button></li>
-                              
-                            </ul>
                           </div>
-                          
-                          
-
-                      </div>  
-                       
-                          
-                          
-                          
-                          
-
-                      </div>
-                     
-                        
-                    </div>
-                    
-                    </div>
-                    <div class="col">
-                      <div class="row justify-content-left pb-4">
-                        <div class="row">
-                          <div class="col-5">
-                            <label for="date" id="date">Date</label>
-                            <input type="date" id="name" class="form-control"placeholder="Enter Name">
+                          <div class="col">
+                            <div class="row">
+                              <div class="col pt-1">
+                                <label for="selectbarber" style="margin-left: 2.5rem;">Select a Barber</label>
+                                <div class="dropdown">
+                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="barberbutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:white; color: grey;  padding-right: 9em; margin-left: 40px ; border: solid 0.5px lightgray; accent-color: blue;  margin-bottom: -0.5px; " >
+                                            Barber
+                                        </button>
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li data-value="option1"><button class="dropdown-item" type="button">Aiden Camp</button></li>
+                                    <li data-value="option2"><button class="dropdown-item" type="button">Bobby Brow</button></li>
+                                    <li data-value="option3"><button class="dropdown-item" type="button">John Doe</button></li>
+                                    <li data-value="option4"><button class="dropdown-item" type="button">Lucas Rami</button></li>
+                                    <li data-value="option5"><button class="dropdown-item" type="button">Mary Man</button></li>
+                                    <li data-value="option6"><button class="dropdown-item" type="button">Noah Park</button></li>
+                                  
+                                    
+                                  </ul>
+                                </div>
+                                
+                                
+                                
+    
+                            </div>
+                            <div class="col pt-1">
+                              <label for="selectservice" style="margin-right: 21rem;">Services</label>
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="servicebutton" data-bs-toggle="dropdown" aria-expanded="true" style="width: 30%;background-color:white; color: gray; padding-right: 11em; margin-left: -4px ; border: 0.5px solid lightgray; margin-bottom: -0.5px;" >
+                                          Select a Service
+                                      </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li data-value="option7"><button class="dropdown-item" type="button">Men's Haircut</button></li>
+                                  <li data-value="option8"><button class="dropdown-item" type="button">Beard & Shaving</button></li>
+                                  <li data-value="option9"><button class="dropdown-item" type="button">Kid's Haircut</button></li>
+                                  
+                                </ul>
+                              </div>
+                              
+                              
+    
+                          </div>  
+                           
+                              
+                              
+                              
+                              
+    
+                          </div>
+                         
+                            
                         </div>
-                        <div class="col-5">
-                            <label for="time">Time</label>
-                            <input type="time" id="time" class="form-control" pattern="(1[012]|0[1-9]):[0-5][0-9] (am|pm)">
-
-
+                        
                         </div>
-
-                      </div>
-                      <div class="row pt-4 ml-8" style="width: 75%; justify-content:left ; margin-left: 0.1rem;">
+                        <div class="col">
+                          <div class="row justify-content-left pb-4">
+                            <div class="row">
+                              <div class="col-5">
+                                <label for="date" id="date">Date</label>
+                                <input type="date" id="name" class="form-control"placeholder="Enter Name">
+                            </div>
+                            <div class="col-5">
+                                <label for="time">Time</label>
+                                <input type="time" id="time" class="form-control" pattern="(1[012]|0[1-9]):[0-5][0-9] (am|pm)">
+    
+    
+                            </div>
+    
+                          </div>
+                          <div class="row pt-4 ml-8" style="width: 75%; justify-content:left ; margin-left: 0.1rem;">
+                            
+                            <label for="message" style="margin-left: -0.8rem; margin-bottom: 0.5em;">Comments</label>
+                            <textarea class="form-control" id="message" rows="3" style="width:100%"placeholder="Enter message"></textarea>
+                            
+                        </div>
                         
-                        <label for="message" style="margin-left: -0.8rem; margin-bottom: 0.5em;">Comments</label>
-                        <textarea class="form-control" id="message" rows="3" style="width:100%"placeholder="Enter message"></textarea>
+    
+                            
+                        </div>
+                        
+    
+                        </div>
+                        
                         
                     </div>
                     
-
-                        
-                    </div>
-                    
-
-                    </div>
-                    
-                    
-                </div>
+                   
                 
-               
+            </div>
             
+    
+            </div>
+            <button class="hero-btn" type="submit" style="justify-content: center; align-items: center;margin-top: 2rem; width: 20%; margin-left: 35rem;" onclick="verifyscheduleform()">Submit</button>
+            
+          
+           
+    
+          </form>
+          
+          
+            
+            
+    
+           
+    </div>
+    <div class="footer fixed-bottom">
+      
+      <footer class="py-3 mt-5 " style="background-color: black; ">
+        <div class="container  pb-1 justify-content-left">
+          <div class="row" style="margin-top: 1em;">
+            <small class="text-white"> <i class="fa-solid fa-map-pin" style="margin-right : 0.5em;"></i>35 Runway Rd,CA</small>
+            <small class="text-white"> <i class="fa fa-phone" aria-hidden="true" style="margin-right: 0.5em;"></i>788-321-444</small>
+            <small class="text-white"><i class="fa-brands fa-facebook" style="margin-left: 0.2em; margin-top: 0.5em;"></i><i class="fa-brands fa-instagram" style="margin-left: 0.5em; margin-top: 0.5em;"></i><i class="fa-brands fa-twitter" style="margin-left: 0.5em; margin-top: 0.5em;"></i></small>
+          </div>
+        
+        </div>
+        <div class="container text-light text-center" style="margin-right:2em ;margin-bottom: 0.7em;">
+          
+          <div class="row" id="footerrow" style="margin-top: -5em;">
+            <small class="text-white"><a href="terms.html">Terms & Services</a></small>
+            <small class="text-white"><a href="faq.html">FAQ's</a></small>
+          </div>
+          
+          <small class="text-white" style="color:white">&copy;<b style="color:#bc6c25ff;">2023</b> Copyright by Clippers&Co. All rights reserved</small>
+
         </div>
         
-
-        </div>
-        <button class="hero-btn" type="submit" style="justify-content: center; align-items: center;margin-top: 2rem; width: 20%; margin-left: 35rem;" onclick="verifyscheduleform()">Submit</button>
-        
       
-       
 
-      </form>
-      
-      
-        
-        
 
-       
-      </div>
+      </footer>
+
+    </div>
+
+  </div>
+ 
 
       <script type = "text/javascript" src="index.js"></script>  
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
       
      
 </body>
-
-<footer class="py-3 mt-5 " style="background-color: black; ">
-  <div class="container  pb-1 justify-content-left">
-    <div class="row" style="margin-top: 1em;">
-      <small class="text-white"> <i class="fa-solid fa-map-pin" style="margin-right : 0.5em;"></i>35 Runway Rd,CA</small>
-      <small class="text-white"> <i class="fa fa-phone" aria-hidden="true" style="margin-right: 0.5em;"></i>788-321-444</small>
-      <small class="text-white"><i class="fa-brands fa-facebook" style="margin-left: 0.2em; margin-top: 0.5em;"></i><i class="fa-brands fa-instagram" style="margin-left: 0.5em; margin-top: 0.5em;"></i><i class="fa-brands fa-twitter" style="margin-left: 0.5em; margin-top: 0.5em;"></i></small>
-    </div>
-  
-  </div>
-  <div class="container text-light text-center" style="margin-right:2em ;margin-bottom: 0.7em;">
-    
-    <div class="row" id="footerrow" style="margin-top: -5em;">
-      <small class="text-white"><a href="terms.html">Terms & Services</a></small>
-      <small class="text-white"><a href="faq.html">FAQ's</a></small>
-    </div>
-    
-    <small class="text-white" style="color:white">&copy;<b style="color:#bc6c25ff;">2023</b> Copyright by Clippers&Co. All rights reserved</small>
-
-  </div>
-  
- 
-
-
-</footer>
 
 </html>
