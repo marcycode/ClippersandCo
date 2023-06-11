@@ -172,6 +172,11 @@ nav{
     border-style: solid;
 }
 
+.navbar-nav > li a{
+  border-radius: 50px;
+}
+
+
 
 
 
@@ -212,4 +217,30 @@ nav{
 .row small i:hover{
   cursor: pointer;
   color:#bc6c25ff
+}
+
+.row small i:hover{
+  cursor: pointer;
+  color:#bc6c25ff
+}
+
+
+
+
+
+.navbar-nav > li a:hover{
+  background-color: #bc6c25ff;
+  border-radius: 50px;
+
+  color:white;
+}
+
+.navbardropdown:hover{
+  
+  background-color:#bc6c25ff;
+  color: white;
+}
+
+.navbar-nav > li a{
+  border-radius: 50px;
 }

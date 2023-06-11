@@ -5,6 +5,7 @@
 
 nav{
     display:flex;
+   
     padding: 0% 6%;
     justify-content: space-between; 
     background-color: #606c38ff;
@@ -192,8 +193,8 @@ i:hover{
     border-radius: 50px;
   }
   
+  
+
   .navbar-nav > li a:hover{
-      background-color: #bc6c25ff;
-      color: white;
-      border-radius: 50px;
-  }
+    color:#bc6c25ff;
+}
