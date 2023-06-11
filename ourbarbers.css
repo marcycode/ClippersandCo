@@ -198,3 +198,12 @@ i:hover{
   .navbar-nav > li a:hover{
     color:#bc6c25ff;
 }
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
